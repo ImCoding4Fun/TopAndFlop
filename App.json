@@ -3,12 +3,12 @@
 	"TemplateFile": "TF_Template.html",
 	"NavMenu": [{
 		"DisplayItem": "Movies",
-		"SourceFile" : "movies.js"
+		"SourceFile" : "movies.json"
 	}, {
 		"DisplayItem": "Songs",
-		"SourceFile" : "songs.js"
+		"SourceFile" : "songs.json"
 	}, {
 		"DisplayItem": "Football Teams",
-		"SourceFile" : "football_teams.js"
+		"SourceFile" : "football_teams.json"
 	}]
 }

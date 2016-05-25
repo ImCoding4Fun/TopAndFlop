@@ -3,6 +3,7 @@ Top & Flop template BL
  */
 
 $(function(){
+  var data_source = $("#data-source").val();
   $.getJSON( data_source, function( json ) {
       $("h1:first").text(json.BestLabel);
       $("h1:last").text(json.WorstLabel);
